@@ -1,34 +1,17 @@
-button {
-  background-color: lavender;
-}
-h1 {
-  color: blue;
-}
-.anna {
-  font-family:Arial;
-}
+<html>
+  <head>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body background="succulent.jpg">
+  <div>
+    <h1 style="text-align:center; color:white">Welcome to my Blog</h1>
 
-#demo{
-  background: rgb(254, 254, 196);
-}
-div{
-  border: solid 1px red;
-  text-align: center;
-}
+  </div>
 
-#button{
-  border: solid 2px purple;
-  margin: 35px;
-}
+    <h1 classname="anna"> My Awesome Life</h1>
 
-p{
-  color:green;
-  font-family: fantasy;
-}
-#minion{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 50%;
-  height: 50%;
-}
+    <p classname="anna"> Today was amazing beccause I went to the city with my friends. We ate matcha ice cream from Taiyaki. Could always have seconds!! </p>
+    <button onclick="myfunction()"> Click to Learn more </button>
+  </body>
+    <script src="myJSfile.js"> </script>
+</html>
